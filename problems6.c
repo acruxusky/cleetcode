@@ -11,7 +11,7 @@ char* convert(char* s, int numRows)
 {
     int length = strlen(s);
 
-    if ((length == 0) || (numRows == 0))
+    if ((length == 0) || (numRows == 0) || (numRows == 1))
     	return s;
 
     int unit = 2 * numRows - 2;
